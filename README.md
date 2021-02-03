@@ -9,7 +9,7 @@ Este é um projeto feito através da paltaforma Digital Innovation One. Trata-se
 - [ ] adicionar um botão de reiniciar o game
 - [ ] adicionar novos cenários
 - [ ] adicionar novos inimigos
-- [ ] melhoria no timer dos inimigos
+- [ ] melhoria no timing dos inimigos
 - [ ]  adicionar um contador de pontos
 
 
