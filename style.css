@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+.naruto {
+    width: 110px;
+    height: 100px;
+    background-image: url(images/naruto.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.akatsukiTobi{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+    background-image: url(images/tobi.png);
+}
+
+.akatsukiPain{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+    background-image: url(images/pain.png);
+}
+
+.akatsukiItachi{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+    background-image: url(images/itachi.png);
+}
+ 
+.akatsukiSasori{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+    background-image: url(images/sasori.png);
+}
+
+.akatsukiDeidara{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+    background-image: url(images/deidara.png);
+}
+
+.grid {
+    position: absolute;
+    bottom: 1;
+    background: url(images/Valley_of_the_End.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+}
